@@ -29,7 +29,10 @@ button {
   user-select: none;
   cursor: pointer;
 }
-
+p {
+  /* color: ; */
+  line-height: 1;
+}
 @media (max-width: 500px) {
   #pc {
     display: none;
