@@ -57,3 +57,31 @@
 .contact .article_container .article2 p {
   font-size: 1.2vw;
 }
+@media screen and (max-width: 500px) {
+  .contact .text_box {
+    height: 10vw;
+  }
+  .contact .text_box p {
+    font-size: 2.5vw;
+  }
+  .contact .article_container .article1 {
+    width: 52%;
+  }
+  .contact .article_container .article1 p:nth-child(1) {
+    font-size: 3.5vw;
+  }
+  .contact .article_container .article1 p {
+    font-size: 3vw;
+    margin-bottom: 3vw;
+    letter-spacing: -0.03vw;
+  }
+  .contact .article_container .article2 {
+    width: 54%;
+    height: 20vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+  .contact .article_container .article2 p {
+    font-size: 3vw;
+  }
+}

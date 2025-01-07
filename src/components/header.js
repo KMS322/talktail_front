@@ -4,7 +4,13 @@ const Header = ({ onPageChange }) => {
   const [current, setCurrent] = useState("home");
   return (
     <div className="header">
-      <div className="logo_box">
+      <div
+        className="logo_box"
+        onClick={() => {
+          onPageChange("home");
+          setCurrent("home");
+        }}
+      >
         <img src="/img/logo.png" alt="" />
       </div>
       <div className="nav">
