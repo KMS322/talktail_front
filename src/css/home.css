@@ -1,0 +1,17 @@
+/* home */
+.home {
+  width: 100%;
+  height: auto;
+}
+.home video {
+  width: 100%;
+}
+.home .text_box {
+  width: 100%;
+  height: 15vw;
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+}

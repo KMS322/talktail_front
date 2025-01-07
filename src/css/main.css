@@ -1,3 +1,5 @@
-/* main_s1 */
-.main_s1 {
+.main {
+  width: 100%;
+  height: auto;
+  border: 1px solid red;
 }
