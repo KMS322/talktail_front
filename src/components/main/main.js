@@ -4,7 +4,6 @@ import About from "./about";
 import Solution from "./solution";
 import Contact from "./contact";
 const Main = ({ currentPage }) => {
-  console.log("currentPage : ", currentPage);
   const renderPage = () => {
     switch (currentPage) {
       case "about":
